@@ -1021,7 +1021,7 @@ namespace Tests
             double[] answer1 = new double[] { 1.5, 2, 2.5, 3 };
             double[] answer2 = new double[] { 1.57, 1.40, 0.7, -0.57};
             double[] answer3 = new double[] { -2.5, -1.88, -1.25, -0.62, 0, 0.62, 1.25, 1.88, 2.5 };
-            double[] answer4 = new double[] { 0.7, 1.49, 1.50, 1.17, 1, 1.17, 1.50, 1.49, 0.7};
+            double[] answer4 = new double[] { 0.7, 1.49, 1.50, 1.18, 1, 1.18, 1.50, 1.49, 0.7};
             double answer5 = 1.57, answer6 = -0.57, answer7 = 1.50, answer8 = 0.7;
             // Act
             (x1, y1, max1, min1) = main.Task_3_11(a1, b1, n1);
