@@ -1078,10 +1078,10 @@ namespace Tests
             // Arrange
             double[] input1 = new double[] { 0, 1.5, 1, 3, -2.2, -0.5, 3 };
             double[] input2 = new double[] { 5, 2, 8, 1, 9, 3, 7, 4, 10, 10 };
-            double[] input3 = new double[] { -1, -2, -8, -1, -9, -1, -1, -4, -6, -2 };
+            double[] input3 = new double[] { -1, -4, -8, -1, -9, -1, -1, -4, -2, -8 };
             double[] answer1 = new double[] { 0, 1.5, 1, 3, -2.2, -0.5 };
             double[] answer2 = new double[] { 5, 2, 8, 1, 9, 3, 7, 4, 10 };
-            double[] answer3 = new double[] { -1, -2, -8, -9, -4, -6, -2 };
+            double[] answer3 = new double[] { -1, -4, -8, -9, -2 };
             double[] output1, output2, output3;
             // Act
             output1 = main.Task_3_13(input1);
