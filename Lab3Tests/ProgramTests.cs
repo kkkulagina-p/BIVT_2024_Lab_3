@@ -409,8 +409,17 @@ namespace Tests
             for (int i = 0; i < answer1.Length; i++)
             {
                 Assert.AreEqual(answer1[i], output1[i]);
+            }
+            for (int i = 0; i < answer2.Length; i++)
+            {
                 Assert.AreEqual(answer2[i], output2[i]);
+            }
+            for (int i = 0; i < answer3.Length; i++)
+            {
                 Assert.AreEqual(answer3[i], output3[i]);
+            }
+            for (int i = 0; i < answer3.Length; i++)
+            {
                 Assert.AreEqual(answer4[i], output4[i]);
             }
         }
