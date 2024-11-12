@@ -569,7 +569,7 @@ namespace Tests
             double[] input1 = new double[] { 0, 1.5, 4, 3, -2.2, -0.5, 2, -3.1 };
             double[] input2 = new double[] { 2, 1, 3, 3, 5, 6, 3, 4 };
             double[] input3 = new double[] { 12, 1, 3, 3, 5, 6, 3, 4 };
-            double output1, output2, output3, answer1 = 0.57, answer2 = 3.67, answer3 = 0;
+            double output1, output2, output3, answer1 = 0.575, answer2 = 3.67, answer3 = 0;
             // Act
             output1 = main.Task_2_9(input1);
             output2 = main.Task_2_9(input2);
@@ -815,7 +815,7 @@ namespace Tests
             double[] input1 = new double[] { 0, 1.5, 4, 3, -2.2, -0.5, 2, -3.1 };
             double[] input2 = new double[] { 2, 1, 3, 3, 5, 6, 3, 4 };
             double[] input3 = new double[] { 12, 1, 3, 3, 5, 6, 3, 4 };
-            double output1, output2, output3, answer1 = 2.62, answer2 = 0, answer3 = 4.62;
+            double output1, output2, output3, answer1 = 2.625, answer2 = 0, answer3 = 4.62;
             // Act
             output1 = main.Task_2_17(input1);
             output2 = main.Task_2_17(input2);
