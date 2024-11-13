@@ -324,7 +324,7 @@ namespace Tests
             // Arrange
             double[] input1 = new double[] { 0, 1.5, 1, 3, -2.2, -0.5, 2, 2, 3.1, -0.7 };
             double[] input2 = new double[] { 2, 1, 3, 3, 5, 6, 0, 1, 2, 3 };
-            double[] answer1 = new double[] { double.NaN, 0.20, 0, 0.55, double.NaN, double.NaN, 0.35, 0.35, 0.57 };
+            double[] answer1 = new double[] { double.NaN, 0.20, 0, 0.55, double.NaN, double.NaN, 0.35, 0.35, 0.57, double.NaN }
             double[] answer2 = new double[] { 0.35, 0, 0.55, 0.55, 0.8, 0.9, double.NaN, 0, 0.35, 0.55 };
             // Act
             input1 = main.Task_1_15(input1);
